@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Etch-A-Sketch</title>
+    </head>
+    <body>
+        <header>
+            <h1>Etch-A-Sketch</h1>
+        </header>
+        <section id="etch">
+            <section id="controls">
+                    <h2>Reset Board</h2>
+                    <button type="button" class="btns" onclick="reset()">RESET</button>
+                    <h2>Resize Squares</h2>
+                    <input id="slider" type="range" min="10" max="40" step="10">
+                    <button type="button" class="btns" onclick="resize()">RESIZE</button>
+                    <h2>Rainbow Mode</h2>
+                    <button type="button" class="btns" onclick="rainbow()">Rainbow</button>
+                <section id="colors">
+                    <h2>Chosse colors</h2>
+                    <input type="color" id="primary-color" value="#ffe4e1"> 
+                    <input type="color" id="secondary-color" value="#ff6347">
+                    <button type="button" class="btns" onclick="setColor()">SET COLOR</button>
+                </section>
+            </section>
+        
+            <div id="boardBorder">
+            </div>
+        </section>
+    <script src="js/js-file.js"></script>  
+    </body>
+</html>

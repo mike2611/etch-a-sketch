@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(52,50,47);
+  background: linear-gradient(180deg, rgba(52,50,47,1) 17%, rgba(161,126,38,1) 61%, rgba(121,94,53,1) 100%);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 60px;
+  color: gold;
+  background: rgb(34, 34, 34);
+}
+
+header h1 {
+  margin: 0;
+}
+
+h2 {
+  color: white;
+  margin-top: 30px;
+}
+
+#etch {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+
+#slider {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#colors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#colors input {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+#colors button {
+  width: 100%;
+}
+
+#boardBorder {
+  width: 480px;
+  height: 480px;
+  line-height: 0;
+}
+
+.square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: mistyrose;
+  border: none;
+  transition: background-color 2s;
+}
+
+.btns {
+  color: gold;
+  background: rgb(34, 34, 34);
+  border-radius: 10%;
+  border: 2px solid gold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  font-family: sans-serif;
+  height: 40px;
+  width: 80px;
+}
+
+.btns:hover {
+  background-color: grey;
+}
+
+
+
+
+
