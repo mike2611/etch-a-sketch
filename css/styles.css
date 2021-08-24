@@ -1,8 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: rgb(52,50,47);
-  background: linear-gradient(180deg, rgba(52,50,47,1) 17%, rgba(161,126,38,1) 61%, rgba(121,94,53,1) 100%);
+  background: rgb(52, 50, 47);
+  background: linear-gradient(180deg, rgba(52, 50, 47, 1) 17%, rgba(161, 126, 38, 1) 61%, rgba(121, 94, 53, 1) 100%);
 }
 
 header {
@@ -84,8 +84,3 @@ h2 {
 .btns:hover {
   background-color: grey;
 }
-
-
-
-
-
