@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 
->  I got the idea for this project from The Odin Project.
+>  I got the idea for this project from The Odin Project. This project is something between a sketchpad and an Etch-A-Sketch.
 
 ![screenshot](images/screenShotEtch.png)
 
