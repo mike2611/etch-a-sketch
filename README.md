@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 
->  I got the idea for this project from The Odin Project. This project is something between a sketchpad and an Etch-A-Sketch.
+>  I got the idea for this project from The Odin Project. This project is something between a sketchpad and an Etch-A-Sketch. Move your cursor around the grid and create your own design.
 
 ![screenshot](images/screenShotEtch.png)
 
